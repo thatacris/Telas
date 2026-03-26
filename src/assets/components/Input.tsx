@@ -50,11 +50,11 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: '#CCCCCC',
+    borderWidth: 2,
+    borderColor: '#FF0040',
     borderRadius: 10,
     paddingHorizontal: 16,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#1A1A1A',
     marginBottom: 16,
     height: 50,
   },
@@ -65,6 +65,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingVertical: 12,
     fontSize: 16,
-    color: '#000',
+    color: '#FF0040',
   },
 });

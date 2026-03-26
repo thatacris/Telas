@@ -59,10 +59,10 @@ const styles = StyleSheet.create({
     maxWidth: 300,
   },
   primary: {
-    backgroundColor: '#1E90FF',
+    backgroundColor: '#FF0040',
   },
   secondary: {
-    backgroundColor: '#FF6347',
+    backgroundColor: '#FF0040',
   },
   disabled: {
     opacity: 0.5,
@@ -70,6 +70,6 @@ const styles = StyleSheet.create({
   text: {
     color: '#FFFFFF',
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: '700',
   },
 });

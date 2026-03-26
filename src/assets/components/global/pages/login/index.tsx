@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Text, View, Image, Alert, TouchableOpacity, Modal, TextInput } from "react-native";
+import { Text, View, Alert, TouchableOpacity, Modal, TextInput } from "react-native";
 import { useNavigation, NavigationProp } from "@react-navigation/native";
 import { MaterialIcons, Octicons } from "@expo/vector-icons";
 
 import { style } from "./styles";
-const Logo = require('../../../../logo.png');
 import { Input } from "../../../Input";
 import { Button } from "../../../Button";
 
@@ -95,11 +94,7 @@ export default function Login() {
   return (
     <View style={style.container}>
       <View style={style.boxTop}>
-        <Image 
-          source={Logo} 
-          style={style.logo} 
-          resizeMode="contain"
-        />
+        <Text style={style.appName}>UniFit</Text>
         <Text style={style.text}>Bem vindo de volta!</Text>
       </View>
 
